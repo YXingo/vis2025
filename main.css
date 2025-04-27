@@ -265,8 +265,9 @@ html, body {
 }
 
 .country:hover {
-    stroke-width: 1.5;
+    stroke-width: 0.5;
     stroke: var(--accent-color);
+    stroke: black;
 }
 
 /* 响应式设计 */
@@ -315,7 +316,7 @@ html, body {
 }
 
 .grid {
-    margin-top: 1rem;
+    margin-top: -2rem;
 }
 
 .label-distribution {

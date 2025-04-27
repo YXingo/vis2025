@@ -131,10 +131,10 @@ class MapComponent extends React.Component {
                   {/*<stop offset="75%" style={{stopColor: '#5c171d', stopOpacity: 1}}/>*/}
                   {/*<stop offset="100%" style={{stopColor: '#000000', stopOpacity: 1}}/>*/}
                   <stop offset="0%" style={{stopColor: '#000000', stopOpacity: 1}}/>
-                  <stop offset="25%" style={{stopColor: '#5c171d', stopOpacity: 1}}/>
-                  <stop offset="50%" style={{stopColor: '#b85c2e', stopOpacity: 1}}/>
-                  <stop offset="75%" style={{stopColor: '#dec57a', stopOpacity: 1}}/>
-                  <stop offset="100%" style={{stopColor: '#f0f5d6', stopOpacity: 1}}/>
+                  <stop offset="25%" style={{stopColor: '#3b7bb1', stopOpacity: 1}}/>
+                  <stop offset="50%" style={{stopColor: '#73c6d0', stopOpacity: 1}}/>
+                  <stop offset="75%" style={{stopColor: '#d7f2e7', stopOpacity: 1}}/>
+                  <stop offset="100%" style={{stopColor: '#ffffff', stopOpacity: 1}}/>
                 </linearGradient>
               </defs>
               <rect

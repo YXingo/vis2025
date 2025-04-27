@@ -55,9 +55,12 @@ export function getDataName(countryName) {
 }
 
 export function buildColormapValue(min, max) {
-  const lum = scaleLinear().domain([min, max]).range([0, 0.9]);
-  const hue = scaleLinear().domain([min, max]).range([-30, 70]);
-  const sat = 0.6;
+  // const lum = scaleLinear().domain([min, max]).range([0, 0.9]);
+  // const hue = scaleLinear().domain([min, max]).range([-30, 70]);
+  // const sat = 0.6;
+  const lum = scaleLinear().domain([max, min]).range([0.1, 0.95]);
+  const hue = scaleLinear().domain([min, max]).range([150, 250]);
+  const sat = 0.5;
   return (d) => {
     return hsl(hue(d), sat, lum(d));
   };
